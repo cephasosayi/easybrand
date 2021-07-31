@@ -22,9 +22,10 @@
     
     <link href="css/style.css" rel="stylesheet">
   </head>
+  <body>
 <!-- nav -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <div class="container">
+  <nav class="navbar navbar-expand-md  fixed-top " id="nav">
+  <div class="container" id="navitems">
     
     <a class="navbar-brand" href="#">EasyBrand Services</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -34,13 +35,13 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav me-auto mb-2 mb-md-0">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="contact.html" tabindex="-1" >Contact us</a>
+          <a class="nav-link" href="contact.html" tabindex="-1" >Contact us</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="services.html" tabindex="-1" >Services</a>
@@ -48,7 +49,7 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-primary" type="submit">Search</button>
       </form>
     </div>
   </div>
@@ -69,10 +70,10 @@
         <div class="col-lg-5 mb-4">
 
             <!--Form with header-->
-            <div class="card border-primary rounded-0">
+            <div class="card rounded-0" id="bordr">
 
                 <div class="card-header p-0">
-                    <div class="bg-primary text-white text-center py-2">
+                    <div class="myheadr bg-blue text-center py-2">
                         <h3><i class="fa fa-envelope"></i> Write to us:</h3>
                         <p class="m-0">We'll write rarely, but only the best content.</p>
                     </div>
@@ -83,28 +84,28 @@
                     <div class="form-group">
                         <label>Your name</label>
                         <div class="input-group">
-                            <div class="input-group-addon bg-light"><i class="fa fa-user text-primary"></i></div>
+                            <div class="input-group-addon bg-light"><i class="fa fa-user text-secondary"></i></div>
                             <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Your email</label>
                         <div class="input-group mb-2 mb-sm-0">
-                            <div class="input-group-addon bg-light"><i class="fa fa-envelope text-primary"></i></div>
+                            <div class="input-group-addon bg-light"><i class="fa fa-envelope text-secondary"></i></div>
                             <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Service</label>
                         <div class="input-group mb-2 mb-sm-0">
-                            <div class="input-group-addon bg-light"><i class="fa fa-tag prefix text-primary"></i></div>
+                            <div class="input-group-addon bg-light"><i class="fa fa-tag prefix text-secondary"></i></div>
                             <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Message</label>
                         <div class="input-group mb-2 mb-sm-0">
-                            <div class="input-group-addon bg-light"><i class="fa fa-pencil text-primary"></i></div>
+                            <div class="input-group-addon bg-light"><i class="fa fa-pencil text-secondary"></i></div>
                             <textarea class="form-control"></textarea>
                         </div>
                     </div>
@@ -123,20 +124,21 @@
       </section>
 
 <!-- footer -->
+ 
+
  <footer class="w-100 py-4 flex-shrink-0">
         <div class="container py-4">
             <div class="row gy-4 gx-5">
                 <div class="col-lg-4 col-md-6" style="margin-left: px;">
-                    <h5 class="h1 text-white">FB.</h5>
-                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
+                    <h5 class="h4 text-white">EASYBRAND SERVICES</h5>
+                    <p class="small text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Easybrandservices.com</a></p>
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h5 class="text-white mb-3">Quick links</h5>
-                    <ul class="list-unstyled text-muted">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Get started</a></li>
+                    <ul class="list-unstyled" style="color: #ffffff;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="#">FAQ</a></li>
                     </ul>
                 </div>
@@ -161,7 +163,9 @@
                 </div>
             </div>
         </div>
-    </footer> <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </footer>
+</body>
+     <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>

@@ -86,11 +86,20 @@ img, figure {
 
 .card-text {
     padding-top: 12px;
-    color: #8c8c8c;
+    color: #000000;
 }
 
 .text-sm {
     font-size: 12px !important;
+    color: #000000;
+}
+#leanmore{
+    font-size: 12px !important;
+    color: #102544;
+}
+#leanmore:hover {
+    font-size: 12px !important;
+    color: #37ADC9;
 }
 p, .p {
     margin: 0 0 16px;
@@ -101,6 +110,7 @@ p, .p {
     font-family: "Montserrat",sans-serif;
     font-size: 18px;
     font-weight: 900;
+    color: #102544; 
 }
 
 .pt-1, .py-1 {
@@ -109,5 +119,36 @@ p, .p {
 
 .head-icon{
     margin-top:18px;
-    color:#FF4500
+    color:#0f6193;
+    
 }
+
+.fa-user{
+    color:#0f6193;
+    
+    
+    } 
+.fa-user-circle-o{
+    color:#0f6193;
+   
+
+}
+    
+    .fa-image{
+    color:#0f6193;
+    
+            } 
+    .fa-address-book{
+    color:#0f6193;
+    
+            }
+    .fa-car{
+    color:#0f6193;
+    
+                }
+    .fa-camera{
+    color:#0f6193;
+     
+    }
+
+
